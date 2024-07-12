@@ -1,0 +1,17 @@
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-color:rgb(246, 246, 246);
+  width:82.5%; 
+  padding-left: 2%; 
+  border-radius: 25px;
+  margin: 40px; 
+  margin-left:7.5% ;
+  } 
+
+
+
+
+  
+
+  

@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+  
+.logo-header {
+    width: 8vw;
+    margin-left: 7.7%;
+}
+
+.nav {
+    display: flex;
+    font-size: 1.5vw;
+    margin-right: 85px;
+}
+  
+.text-header {
+    margin: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.text-header:hover {
+    border-bottom: 2px solid;
+}
+  
+  

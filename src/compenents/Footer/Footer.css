@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.footer-all{
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.footer-logo {
+    width: 7vw;
+}
+
+.footer-text {
+    color: white;
+    font-weight: bold;
+}
