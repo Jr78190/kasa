@@ -5,6 +5,7 @@
 
 .footer-all{
     background-color: black;
+    width: 92.3vw;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -20,4 +21,27 @@
 .footer-text {
     color: white;
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    
+    .footer-all{
+        width: 86.8vw;
+        margin-top: 10%;
+    }
+
+    .footer-logo {
+        width: 35vw;
+        height: 15vw;
+        margin-top: 7%;
+    }
+
+    .footer-text {
+        color: white;
+        font-weight: bold;
+        font-size: 4vw;
+        width: 31vw; 
+        font-weight: 100;
+    }
+
 }

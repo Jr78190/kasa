@@ -9,6 +9,13 @@
   margin-left:7.5% ;
   } 
 
+  @media (max-width: 768px) {
+    .card-grid {
+      background-color: white;
+      margin-left:2vw;
+    }
+}
+
 
 
 

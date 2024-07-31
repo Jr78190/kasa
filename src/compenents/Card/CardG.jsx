@@ -1,24 +1,17 @@
 import React from "react";
 import Card from "./Card";
 import "./CardG.css";
+import logementsData from "../../assets/logements.json"; 
 
 const CardGrid = () => {
-  const cards = [
-    { title: "Titre de la location " },
-    { title: "Titre de la location " },
-    { title: "Titre de la location " },
-    { title: "Titre de la location " },
-    { title: "Titre de la location " },
-    { title: "Titre de la location " },
-  ];
-
   return (
     <div className="card-grid">
-      {cards.map((card, index) => (
-        <Card key={index} title={card.title} />
+      {logementsData.map(logement => (
+        <Card key={logement.id} id={logement.id} title={logement.title} cover={logement.cover} />
       ))}
     </div>
   );
 };
 
 export default CardGrid;
+

@@ -7,7 +7,7 @@ import './About.css';
 
 const About = () => {
   return (
-    <div>
+    <div className='all-about'>
       <Header />
 
       <div className="img-fond2">

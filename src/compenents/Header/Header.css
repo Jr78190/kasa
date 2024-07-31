@@ -1,4 +1,4 @@
-.header {
+.all-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,6 +25,34 @@
 
 .text-header:hover {
     border-bottom: 2px solid;
+}
+
+@media (max-width: 768px) {
+    .all-header {
+       margin-top: 3%; 
+    }
+
+    .nav {
+        display: flex;
+        /* font-size: 1.5vw; */
+        margin-right: 6.5vw;
+    }
+
+    .nav-list {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .logo-header {
+        width: 8rem;
+    }
+
+    .text-header {
+        margin: 15px;
+        font-size: 4.5vw;
+    }
 }
   
   

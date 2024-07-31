@@ -1,12 +1,10 @@
-.collapse-all {
-    border: none;
-    padding-left: 15%;
-    width: 70%;
-    margin: 25px ; 
+.description-all {
+    margin: 25px ;  
     font-family: 'Roboto', sans-serif; 
+    width: 40%;
 }
   
-.collapse-label {
+.description-label {
     background-color: #ff5e5e;
     color: white;
     padding: 10px ;
@@ -17,9 +15,8 @@
     border-radius: 5px;
 }
 
-.collapse-text {
-    background-color: white;
-    color: black;
+.description-text {
+    flex-direction: column;
     padding: 10px;
 }
   
@@ -32,14 +29,15 @@
 .select-icon.open {
     transform: rotate(180deg);
 }
-
-@media (max-width: 768px) {
  
-  .collapse-all {
-    border: none;
-    padding-left: 4.5vw;
-    width: 83vw; 
-    font-family: 'Roboto', sans-serif; 
-}
-}
-  
+@media (max-width: 768px) {
+
+    .description-all {
+        width: 90%;
+    }
+    .description-label {
+      width: 79vw;
+    }
+
+    
+  }

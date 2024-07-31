@@ -4,9 +4,6 @@ import Footer from "../../compenents/Footer/Footer";
 import CardGrid from "../../compenents/Card/CardG";
 import "./Home.css";
 
-
-
-
 function Home() {
     return (
         <main >
@@ -24,6 +21,5 @@ function Home() {
         </main>
     );
 }
-
 
 export default Home;

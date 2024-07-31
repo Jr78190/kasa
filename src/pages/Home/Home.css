@@ -40,3 +40,23 @@
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .img-fond {
+      height: 160px;
+    }
+
+    .image-home {
+       height: 159px;
+    }
+
+    .text-image p {
+        font-weight: bold;
+        margin-right: 27vw;
+        margin-left: 7vw;
+        font-size: 6vw; 
+        text-align: left;
+    }
+
+}
+  
+
