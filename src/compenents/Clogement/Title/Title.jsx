@@ -1,10 +1,12 @@
 import React from "react";
-import "./Title.css"
+import "./Title.css";
 
-const Title = ({ title, host }) => (
-  <div className="title">
-    <p>{title}</p>
-  </div>
-);
+const Title = ({ title }) => {
+  return (
+    <div className="title">
+      <p>{title}</p>
+    </div>
+  );
+};
 
 export default Title;

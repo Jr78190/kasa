@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import './Collapse.css';
+import './Collapse.css'
 
-const Collapse = ({ label, description }) => {
+
+const ViewAccount = ({ label, description }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleOpen = () => {
@@ -10,14 +11,16 @@ const Collapse = ({ label, description }) => {
 
   return (
     <div className="collapse-all">
-      <div className="collapse-label">
+      <div className="collapse-label" onClick={toggleOpen}>
         {label}
-        <span className={`select-icon ${isOpen ? 'open' : ''}`} onClick={toggleOpen}>∧</span>
+        <span className={`select-icon ${isOpen ? 'open' : ''}`}>
+          {isOpen ? '∧' : '∨'}
+        </span>
       </div>
-      {isOpen && <div className="collapse-text">{description}</div>}
+      {isOpen && <div className="collapse-text ">{description}</div>}
     </div>
   );
 };
 
-export default Collapse;
+export default ViewAccount;
 

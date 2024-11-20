@@ -28,17 +28,17 @@
 
 @media (max-width: 768px) {
      
-.erreur-titre {
-    font-size: 7rem;    
-}
+    .erreur-titre {
+        font-size: 7rem;    
+    }
 
-.erreur-text {
-    padding-left: 15%;
-    font-size: 5.2vw;
-    color: #ff6f61;
-    margin: 20px ;
+    .erreur-text {
+        padding-left: 15%;
+        font-size: 5.2vw;
+        color: #ff6f61;
+        margin: 20px ;
+    }
 }
-  }
   
   
   

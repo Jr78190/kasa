@@ -1,12 +1,10 @@
-/* Rating.css */
-
-  .filled-star {
+.filled-star {
     color: #ff5e5e;
-  }
+}
   
-  .empty-star {
+.empty-star {
     color: #ccc;
-  }
+}
   
   
 .rating-contained {
@@ -32,17 +30,14 @@
         margin-top: -8vw;  
     }
      
-     .filled-star {
+    .filled-star {
          color: #ff5e5e;
          margin-right: 5px;
-     }
+    }
      
-     .empty-star {
+    .empty-star {
          color: #e4e5e9;
          margin-right: 5px;
-     }
-     
- 
-  
+    }
   }
    

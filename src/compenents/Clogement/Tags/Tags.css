@@ -10,7 +10,7 @@
     gap: 10px;
 }
   
-  .item-tags {
+.item-tags {
     font-family: 'Roboto', sans-serif; 
     background-color: #ff5a5f; 
     color: white;
@@ -18,6 +18,26 @@
     border-radius: 10px;
     font-weight: bold;
     text-align: center;
-  }
+}
+
+@media (max-width: 768px) {
+    .list-tags {
+        list-style-type: none;
+        display: flex;
+        font-size: 1.5vw;
+        /* gap: 10px; */
+    } 
+
+    .item-tags {
+        font-family: 'Roboto', sans-serif; 
+        background-color: #ff5a5f; 
+        color: white;
+        font-size: 2.3vw;
+
+        border-radius: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
 
   

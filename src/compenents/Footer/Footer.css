@@ -26,13 +26,13 @@
 @media (max-width: 768px) {
     
     .footer-all{
-        width: 86.8vw;
+        width: 88vw;
         margin-top: 10%;
     }
 
     .footer-logo {
-        width: 35vw;
-        height: 15vw;
+        width: 30vw;
+        height: 10vw;
         margin-top: 7%;
     }
 
@@ -40,7 +40,7 @@
         color: white;
         font-weight: bold;
         font-size: 4vw;
-        width: 31vw; 
+        width: 30vw; 
         font-weight: 100;
     }
 

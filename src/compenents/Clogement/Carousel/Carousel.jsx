@@ -2,23 +2,24 @@ import React, { useState, useEffect } from "react";
 import "./Carousel.css";
 
 const Carousel = ({ pictures }) => {
-  const [currentPictures, allPictures] = useState(0);
+  const [currentPictures, setCurrentPicture] = useState(0);
 
   useEffect(() => {
     const lastIndex = pictures.length - 1;
     if (currentPictures < 0) {
-        allPictures(lastIndex);
+      setCurrentPicture(lastIndex);
+      
     } else if (currentPictures > lastIndex) {
-        allPictures(0);
+      setCurrentPicture(0);
     }
   }, [currentPictures, pictures]);
 
   const PrevPictures = () => {
-    allPictures(currentPictures - 1);
-  };
+    setCurrentPicture(currentPictures - 1);
+  };  
 
   const NextPictures = () => {
-    allPictures(currentPictures + 1);
+    setCurrentPicture(currentPictures + 1);
   };
 
   return (
