@@ -1,0 +1,18 @@
+.logement-collapse {
+    display: flex;
+    gap: 70px;  
+    margin-top: 25px;
+    margin-left: 6%;
+}
+
+@media (max-width: 768px) {
+    .logement-collapse {
+        flex-direction: column;
+        gap: 0;  
+        margin-left: 5%;
+    }
+  }
+
+
+
+

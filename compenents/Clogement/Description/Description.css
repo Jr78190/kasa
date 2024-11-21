@@ -1,0 +1,43 @@
+.description-all {
+    margin: 25px ;  
+    font-family: 'Roboto', sans-serif; 
+    width: 40%;
+}
+  
+.description-label {
+    background-color: #ff5e5e;
+    color: white;
+    padding: 10px ;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.description-text {
+    flex-direction: column;
+    padding: 10px;
+}
+  
+.select-icon {
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+  
+.select-icon.open {
+    transform: rotate(180deg);
+}
+ 
+@media (max-width: 768px) {
+
+    .description-all {
+        width: 90%;
+    }
+    .description-label {
+      width: 79vw;
+    }
+
+    
+  }

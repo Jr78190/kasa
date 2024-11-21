@@ -1,0 +1,45 @@
+.collapse-all {
+    border: none;
+    padding-left: 15%;
+    width: 70%;
+    margin: 25px ; 
+    font-family: 'Roboto', sans-serif; 
+}
+  
+.collapse-label {
+    background-color: #ff5e5e;
+    color: white;
+    padding: 10px ;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.collapse-text {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+  
+.select-icon {
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+  
+.select-icon.open {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+ 
+  .collapse-all {
+    border: none;
+    padding-left: 4.5vw;
+    width: 83vw; 
+    font-family: 'Roboto', sans-serif; 
+}
+}
+  
