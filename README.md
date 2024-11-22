@@ -10,7 +10,7 @@ Site responsive
 
 Technologies : 
 
-Javascript
+JavaScript
 
 React 
 
