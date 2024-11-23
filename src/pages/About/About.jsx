@@ -11,7 +11,7 @@ const About = () => {
       <Header />
 
       <div className="img-fond2">
-        <img className="image-home" src="/image-home2.jpg" alt="image-home" />
+        <img className="image-home" src="../../assets/image-home2.jpg" alt="image-home" />
         <div className="text-image"></div>
       </div>
 
