@@ -8,7 +8,7 @@ import Erreur from "../pages/Erreur/Erreur"
 
 const RouteConfig = () => {
   return (
-    <Router>
+    <Router basename="/kasa">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
