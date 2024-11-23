@@ -10,7 +10,7 @@ function Home() {
             <Header/>
 
             <div className="img-fond">
-                <img className="image-home" src="/image-home.jpg" alt="image-home" />
+                <img className="image-home" src="../../../public/image-home.jpg" alt="image-home" />
                 <div className="text-image">
                     <p>Chez vous, partout et ailleurs</p>
                 </div>
