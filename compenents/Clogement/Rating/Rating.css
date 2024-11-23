@@ -1,0 +1,43 @@
+.filled-star {
+    color: #ff5e5e;
+}
+  
+.empty-star {
+    color: #ccc;
+}
+  
+  
+.rating-contained {
+    display: flex; 
+    padding-left: 82%;  
+    margin-top: 1%; 
+}
+
+.filled-star {
+    color: #ff5e5e;
+    margin-right: 5px;
+}
+
+.empty-star {
+    color: #e4e5e9;
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .rating-contained {
+        display: flex; 
+        padding-left: 10vw;  
+        margin-top: -8vw;  
+    }
+     
+    .filled-star {
+         color: #ff5e5e;
+         margin-right: 5px;
+    }
+     
+    .empty-star {
+         color: #e4e5e9;
+         margin-right: 5px;
+    }
+  }
+   

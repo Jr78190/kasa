@@ -1,0 +1,57 @@
+.all-host {
+    display: flex;
+}
+
+.contained-host {
+    display: flex;
+    margin-right: 10%;
+    padding-left: 80.5%;
+    margin-top: -8.5%;
+}
+
+.name-host {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; 
+    color: #ff5e5e;
+    padding-top: 5%; 
+}
+
+.img-host {
+    border-radius: 50px;
+    height: 85px;
+    width: 85px;
+    margin-left: 10px;
+    margin-top: -10px;
+} 
+
+@media (max-width: 768px) {
+    .name-host {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif; 
+        color: #ff5e5e;
+        padding-top: 20%; 
+    }
+    
+    .contained-host {
+        /* display: flex; */
+        margin-right:9vw;
+        padding-left: 62vw;
+        margin-top: 7.5vw; 
+    }
+    
+    .name-host {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif; 
+        color: #ff5e5e;
+        padding-top: 5%; 
+    }
+    
+    .img-host {
+        border-radius: 50px;
+        height: 85px;
+        width: 85px;
+        margin-left: 10px;
+        margin-top: -10px;
+    } 
+  }
+ 

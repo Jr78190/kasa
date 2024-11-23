@@ -1,0 +1,36 @@
+.equipement-all {
+  margin: 25px ;  
+  font-family: 'Roboto', sans-serif; 
+  width: 40%;
+  margin-top: 1.9%;
+}
+
+.equipement-label {
+  background-color: #ff5e5e;
+  color: white;
+  padding: 10px ;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.equipement-text {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.equipement-text li {
+ margin-top:8px ;
+}
+
+
+
+@media (max-width: 768px) {
+  .equipement-label {
+    width: 79vw;
+  }
+}
+
+
